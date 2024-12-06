@@ -1,6 +1,6 @@
 function TodoList({children}) {
     return (
-      <ul>
+      <ul style={{margin:0, padding:0 }}>
         {children}
       </ul>
     );
